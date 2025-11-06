@@ -19,6 +19,7 @@
         email = "me@aprl.pet";
       };
       init.defaultBranch = "main";
+      pull.rebase = true;
     };
   };
 }
