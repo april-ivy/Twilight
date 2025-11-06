@@ -39,5 +39,7 @@
 
   programs.nix-ld.enable = true;
 
+  services.getty.autologinUser = "april";
+
   system.stateVersion = "25.05";
 }
